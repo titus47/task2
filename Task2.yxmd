@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\k83073587\Desktop\Tableau\All Project Files\segments.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>segments.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Year" source="R-DATA:" type="Int32" />
+            <Field name="Sum_Dry_Grocery" source="R-DATA:" type="Double" />
+            <Field name="Sum_Dairy" source="R-DATA:" type="Double" />
+            <Field name="Sum_Frozen_Food" source="R-DATA:" type="Double" />
+            <Field name="Sum_Meat" source="R-DATA:" type="Double" />
+            <Field name="Sum_Produce" source="R-DATA:" type="Double" />
+            <Field name="Sum_Floral" source="R-DATA:" type="Double" />
+            <Field name="Sum_Deli" source="R-DATA:" type="Double" />
+            <Field name="Sum_Bakery" source="R-DATA:" type="Double" />
+            <Field name="Sum_General_Merchandise" source="R-DATA:" type="Double" />
+            <Field name="Total.Sales" source="R-DATA:" type="Double" />
+            <Field name="Percent.Dry.Grocery." source="R-DATA:" type="Double" />
+            <Field name="Percent.Dairy" source="R-DATA:" type="Double" />
+            <Field name="Percent.Frozen.Food" source="R-DATA:" type="Double" />
+            <Field name="Percent.Meat" source="R-DATA:" type="Double" />
+            <Field name="Percent.Produce" source="R-DATA:" type="Double" />
+            <Field name="Percent.Floral" source="R-DATA:" type="Double" />
+            <Field name="Percent.Deli" source="R-DATA:" type="Double" />
+            <Field name="Percent.Bakery" source="R-DATA:" type="Double" />
+            <Field name="Percent.General.Merchandise" source="R-DATA:" type="Double" />
+            <Field name="Cluster" source="R-DATA:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Store" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="5" source="R-DATA:" type="String" />
+            <Field name="Year" source="R-DATA:" type="Int32" />
+            <Field name="Sum_Dry_Grocery" source="R-DATA:" type="Double" />
+            <Field name="Sum_Dairy" source="R-DATA:" type="Double" />
+            <Field name="Sum_Frozen_Food" source="R-DATA:" type="Double" />
+            <Field name="Sum_Meat" source="R-DATA:" type="Double" />
+            <Field name="Sum_Produce" source="R-DATA:" type="Double" />
+            <Field name="Sum_Floral" source="R-DATA:" type="Double" />
+            <Field name="Sum_Deli" source="R-DATA:" type="Double" />
+            <Field name="Sum_Bakery" source="R-DATA:" type="Double" />
+            <Field name="Sum_General_Merchandise" source="R-DATA:" type="Double" />
+            <Field name="Total.Sales" source="R-DATA:" type="Double" />
+            <Field name="Percent.Dry.Grocery." source="R-DATA:" type="Double" />
+            <Field name="Percent.Dairy" source="R-DATA:" type="Double" />
+            <Field name="Percent.Frozen.Food" source="R-DATA:" type="Double" />
+            <Field name="Percent.Meat" source="R-DATA:" type="Double" />
+            <Field name="Percent.Produce" source="R-DATA:" type="Double" />
+            <Field name="Percent.Floral" source="R-DATA:" type="Double" />
+            <Field name="Percent.Deli" source="R-DATA:" type="Double" />
+            <Field name="Percent.Bakery" source="R-DATA:" type="Double" />
+            <Field name="Percent.General.Merchandise" source="R-DATA:" type="Double" />
+            <Field name="Cluster" source="R-DATA:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="False" />
+            <SelectField field="Year" selected="False" />
+            <SelectField field="Sum_Dry_Grocery" selected="False" />
+            <SelectField field="Sum_Dairy" selected="False" />
+            <SelectField field="Sum_Frozen_Food" selected="False" />
+            <SelectField field="Sum_Meat" selected="False" />
+            <SelectField field="Sum_Produce" selected="False" />
+            <SelectField field="Sum_Floral" selected="False" />
+            <SelectField field="Sum_Deli" selected="False" />
+            <SelectField field="Sum_Bakery" selected="False" />
+            <SelectField field="Sum_General_Merchandise" selected="False" />
+            <SelectField field="Total.Sales" selected="False" />
+            <SelectField field="Cluster" selected="True" type="V_WString" size="11" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="402" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">3</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="Decision_Tree">
+        <Position x="546" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">model</Value>
+          <Value name="curToggle">toggle-main</Value>
+          <Value name="display.static">True</Value>
+          <Value name="set_seed_cv">True</Value>
+          <Value name="showClassificationCV">False</Value>
+          <Value name="showWhenTreePlotAvailable">True</Value>
+          <Value name="showWhenAlgorithmAvailable">False</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="usesurrogate.0">True</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">False</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="model_type">auto</Value>
+          <Value name="auto">True</Value>
+          <Value name="classification">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="tree_summary">Counts</Value>
+          <Value name="Counts">True</Value>
+          <Value name="Proportions">False</Value>
+          <Value name="tree_plot_size">tree.inches</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="pruning_plot_size">prune.inches</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="Model Name">DT</Value>
+          <Value name="Y Var">Cluster</Value>
+          <Value name="X Vars">Percent.Dry.Grocery.,Percent.Dairy,Percent.Frozen.Food,Percent.Meat,Percent.Produce,Percent.Floral,Percent.Deli,Percent.Bakery,Percent.General.Merchandise</Value>
+          <Value name="model.algorithm">rpart</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights" />
+          <Value name="splitting_criteria">use.gini</Value>
+          <Value name="surrogate_use">usesurrogate.0</Value>
+          <Value name="surrogate_split_criteria">total.correct</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins">
+          </Value>
+          <Value name="set_cp">False</Value>
+          <Value name="cp">0</Value>
+          <Value name="rules">False</Value>
+          <Value name="bands_check">False</Value>
+          <Value name="bands">10</Value>
+          <Value name="subset">False</Value>
+          <Value name="winnow">False</Value>
+          <Value name="GlobalPruning">False</Value>
+          <Value name="fuzzyThreshold">False</Value>
+          <Value name="earlyStopping">False</Value>
+          <Value name="trials">1</Value>
+          <Value name="CF">0.25</Value>
+          <Value name="minCases">2</Value>
+          <Value name="sample">0</Value>
+          <Value name="seed">1</Value>
+          <Value name="use_cv">False</Value>
+          <Value name="numberFolds">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="cv_seed">1</Value>
+          <Value name="tree.plot">False</Value>
+          <Value name="Branch Dist">False</Value>
+          <Value name="tree.in.w">5.5</Value>
+          <Value name="tree.in.h">5.5</Value>
+          <Value name="tree.cm.w">13</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">False</Value>
+          <Value name="prune.in.w">5.5</Value>
+          <Value name="prune.in.h">5.5</Value>
+          <Value name="prune.cm.w">13</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DT</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="546" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name">FM</Value>
+          <Value name="Y Var">Cluster</Value>
+          <Value name="X Vars">Percent.Dry.Grocery. + Percent.Dairy + Percent.Frozen.Food + Percent.Meat + Percent.Produce + Percent.Floral + Percent.Deli + Percent.Bakery + Percent.General.Merchandise</Value>
+          <Value name="Num Trees">500</Value>
+          <Value name="Custom Num Vars">False</Value>
+          <Value name="Num Vars">3</Value>
+          <Value name="model.size">False</Value>
+          <Value name="total.nodes">100</Value>
+          <Value name="max.depth">10</Value>
+          <Value name="node.size">5</Value>
+          <Value name="replace">True</Value>
+          <Value name="samp.rate">100</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="546" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model.name">BM</Value>
+          <Value name="select.target">Cluster</Value>
+          <Value name="select.predictors">Percent.Dry.Grocery.=True,Percent.Dairy=True,Percent.Frozen.Food=True,Percent.Meat=True,Percent.Produce=True,Percent.Floral=True,Percent.Deli=True,Percent.Bakery=True,Percent.General.Merchandise=True,Cluster=False</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights">Percent.Dry.Grocery.</Value>
+          <Value name="marginal.plots">False</Value>
+          <Value name="plot.min.importance">2.5</Value>
+          <Value name="type.distribution">False</Value>
+          <Value name="type.continuous">True</Value>
+          <Value name="dist.gaussian">True</Value>
+          <Value name="dist.laplace">False</Value>
+          <Value name="dist.t">False</Value>
+          <Value name="t.df">4</Value>
+          <Value name="type.count">False</Value>
+          <Value name="type.binomial">False</Value>
+          <Value name="dist.bernoulli">True</Value>
+          <Value name="dist.adaboost">False</Value>
+          <Value name="type.multinomial">False</Value>
+          <Value name="n.trees">4000</Value>
+          <Value name="assess.cv">True</Value>
+          <Value name="num.folds">5</Value>
+          <Value name="n.cores">1</Value>
+          <Value name="assess.test">False</Value>
+          <Value name="train.fraction">50.0</Value>
+          <Value name="assess.oob">False</Value>
+          <Value name="bag.fraction">50.0</Value>
+          <Value name="shrinkage">0.0020</Value>
+          <Value name="interaction.depth">1</Value>
+          <Value name="n.minobsinnode">10</Value>
+          <Value name="rand.seed">1</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="774" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="930" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="target.level" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="predictions">
+          <RecordInfo>
+            <Field name="Actual" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="DT" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="FM" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="BM" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="error_measures">
+          <RecordInfo>
+            <Field name="Model" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Accuracy" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_1" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_2" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_3" source="R-DATA:" type="Double" />
+            <Field name="F1" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Report">
+          <RecordInfo>
+            <Field name="Group" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Model Comparison.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1050" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\K83073~1\AppData\Local\Temp\Engine_9840_c07265cff750491cbdc623e2287fb492_\Engine_8976_d67e96f167b14a30b0a807b75a6a7bed_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="726" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\k83073587\Desktop\Tableau\All Project Files\boostedModel.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>boostedModel.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\K83073~1\AppData\Local\Temp\Engine_9840_c07265cff750491cbdc623e2287fb492_\Engine_8976_a75c9473891e4990a2e1ba857ae102c2_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Validation" />
+      <Destination ToolID="10" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Models" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Report" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Report" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
